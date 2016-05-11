@@ -29,7 +29,9 @@ task :new do
 			file.puts "subtitle: #{@subtitle}"
 			file.puts "author: 张大威"
 			file.puts "date: #{Time.now}"
-			file.puts "categories: #{@categories}"
+
+			#file.puts "categories: #{@categories}"
+			file.puts "categories: jekyll update"
 			file.puts "tag: #{@tag}"
 			file.puts "---"
 	end
